@@ -1,0 +1,26 @@
+{
+  "name": "hd44780",
+  "version": "0.0.1",
+  "description": "Signal generator for HD44780-driven LCD displays.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require coffee-script/register"
+  },
+  "keywords": [
+    "hd44780",
+    "lcd",
+    "display",
+    "hardware"
+  ],
+  "author": "Ryan Muller <ryan@muller.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
+  },
+  "dependencies": {
+    "baconjs": "~0.7.22",
+    "lodash": "~2.4.1"
+  }
+}
